@@ -18,14 +18,14 @@ insert into subjects (name) values ("History");
 insert into subjects (name) values ("Politics");
 
 -- INSERTING BOOK DETAILS
-insert into books (title,publisher) values ("The C Programming Language","PHI");
-insert into books (title,publisher) values ("The Go Programming Language","PHI");
-insert into books (title,publisher) values ("The UNIX Programming Environment","PHI");
-insert into books (title,publisher) values ("Cryptonomicon","Harper");
-insert into books (title,publisher) values ("Deep Work","GCP");
-insert into books (title,publisher) values ("Atomic Habits","Avery");
-insert into books (title,publisher) values ("The City and The City","Del Rey");
-insert into books (title,publisher) values ("The Great War for Civilisation","Vintage");
+insert into books (title,publisher) values ("The C Programming Language",1);
+insert into books (title,publisher) values ("The Go Programming Language",1);
+insert into books (title,publisher) values ("The UNIX Programming Environment",1);
+insert into books (title,publisher) values ("Cryptonomicon",2);
+insert into books (title,publisher) values ("Deep Work",3);
+insert into books (title,publisher) values ("Atomic Habits",4);
+insert into books (title,publisher) values ("The City and The City",5);
+insert into books (title,publisher) values ("The Great War for Civilisation",6);
 
 -- CREATING JOINED TABLE
 insert into books_subjects (book,subject) values (1,1);
