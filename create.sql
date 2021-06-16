@@ -7,13 +7,13 @@ create table publisher(
 create table books(
   id integer primary key,
   title text ,
-  publisher integer references publisher(id));
+  publisher integer references publisher_id);
   
 create table subjects(
   id integer primary key,
   name text);
 
 create table book_subjects(
-  book integer refernces subjects(id) ,
-  subject integer references subjects(id));
+  book integer refernces subjects_id ,
+  subject integer references subjects_id);
   
