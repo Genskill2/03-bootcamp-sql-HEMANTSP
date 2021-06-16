@@ -1,3 +1,3 @@
-delete from book_subjects where subject=8;
+delete from books_subjects where subject=8;
 delete from subjects where id=8;
 

@@ -13,7 +13,7 @@ create table subjects(
   id integer primary key,
   name text);
 
-create table book_subjects(
+create table books_subjects(
   book integer refernces subjects(id) ,
   subject integer references subjects(id));
   
