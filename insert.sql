@@ -13,7 +13,7 @@ insert into subjects (name) values ("Technology");
 insert into subjects (name) values ("Go");
 insert into subjects (name) values ("Science Fiction");
 insert into subjects (name) values ("Productivity");
-insert into subjects (name) values ("Psycology");
+insert into subjects (name) values ("Psychology");
 insert into subjects (name) values ("History");
 insert into subjects (name) values ("Politics");
 
